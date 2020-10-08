@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset=UTF-8">
+    <link rel="stylesheet" href="styles/style.css">
+    <title>Integra Q Documentation</title>
+  </head>
+  <body>
+	<div class="sidebar">
+	<a href="./index.html">Home</a>
+	<a href="./syntax.html">Basic Syntax</a>
+	<a class="active" href="./if.html">If statements</a>
+	<a href="./pairs.html">Pairs</a>
+	<a href="./func.html">Default functions</a>
+	</div>
+	<div class="main">
+		<h2 style="text-align: center;">
+			<font face="Times New Roman">
+				Conditional statements
+		</h2>
+		<hr/ width="60px">
+		<h3 style="text-align: center;">
+			<font face="Times New Roman">
+				If statements
+		</h3>
+		<p style="text-align: center;">
+			<font face="Times New Roman">
+				If statement works different from another languages</br>
+				In first braces '{}' test outputs something, only if</br>
+				statement is true. If after first braces symbol of comma,</br>
+				and another braces is starting it will be runned if statement is false.
+				Example:</br></br>
+				<code align="center" style="border: 4px double black;">word = "Hello, World!";</code></br></br>
+				<code align="center" style="border: 4px double black;">if (equal(word, "Hello, World!"), {out("Statement is true");}, {out("Statement is false");});</code></br></br>
+			    <i><p style="text-align: center; color:Gray;">Outputs: 'Statement is true'</p></i>
+			    <p style="text-align: center;">If string in word variable will be another,</br>
+			    Output will be 'Statement is false'</br></br>
+			    You can also use 'not()' function in if to invert boolean type:</br></br>
+				<code align="center" style="border: 4px double black;">word = "Hello, World!";</code></br></br>
+				<code align="center" style="border: 4px double black;">if (not(equal(word, "Hello, World!")), {out("Statement is true");}, {out("Statement is false");});</code></br>
+			    <i><p style="text-align: center; color:Gray;">Outputs: 'Statement is false'</p></i>
+			</p>
+		</p>
+	</div>
+  </body>
+</html>
